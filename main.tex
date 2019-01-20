@@ -38,6 +38,9 @@
 
 \newcommand\eqdef{\mathrel{\stackrel{\makebox[0pt]{\mbox{\normalfont\tiny def}}}{=}}}
 
+\setbeamertemplate{footline}{\vspace*{1mm}\hfill
+\insertframenumber/\inserttotalframenumber\hfill\vspace*{1mm}}
+
 
 
 \title{\texorpdfstring{$\pi$\textsf{-calculus and Go}}}
@@ -48,11 +51,11 @@
 
 
 \begin{document}
-
-\begin{frame}
+{ \setbeamertemplate{footline}{}
+\begin{frame}[noframenumbering]
   \titlepage
 \end{frame}
-
+}
 
 
 \section{Introduction}
